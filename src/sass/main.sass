@@ -14,6 +14,8 @@ img
     padding: 1.9rem 10.1rem 1.6rem
     margin-bottom: 10.5rem
     cursor: pointer
+    &:hover
+        border-color: #0058A7
 
 .hidden 
     display: none
@@ -46,7 +48,7 @@ html
 
 // HEADER
 .header 
-    padding: 6.5rem 0 14rem
+    padding: 6.5rem 0 8rem
     text-align: center
     h1 
         font-family: 'DINPro', sans-serif
@@ -140,7 +142,7 @@ html
 .footer
     background-color: #0d1b2b
     color: #fff
-    padding: 0 0 9rem 2rem
+    padding: 0 0 9rem 0
     h3
         font-family: 'DINPro Bold'
         font-weight: 700
@@ -158,11 +160,16 @@ html
     .contacts
         display: flex
         justify-content: space-between
+        cursor: pointer
         p
             color: #3d95e3
             border-left: 3px solid #0058a7
             margin: 0
             padding: 1.5rem 0 0.8rem 3.5rem
+            span:hover
+                color: #fff
+        .num-phone:hover
+            color: #0058A7
     .address
         margin-bottom: 5rem
     form
